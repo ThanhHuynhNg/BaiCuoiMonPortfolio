@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/ava.png">
+</head>
+
+<body>
+	<div id="outer">
+		<header>
+			<div class="container">
+				<div class="row">					
+						<div class="col-1 logo">
+							<a href="index.html"><img src="img/ava.png" alt="logo"></a>
+						</div>
+						<div class="col-10 menu">
+							<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#about">About</a></li>				
+									<li><a href="#contact">Liên hệ</a></li>
+							</ul>							
+						</div>	
+						<div class="col-1 vote">
+							<a href="#"><ion-icon name="heart-outline"></ion-icon></a>
+						</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<div class="row">
+					<section class="col-12 banner">
+						<div class="col-3 content">
+							<div class="text">
+								<h1><span>Xin chào mọi người!</span><br>Tôi là Thành</h1>
+								<p>Hãy chạm vào tay tôi để biết thêm về tôi nhé  ^_^/</p>
+							</div>
+						</div>
+						<div class="col-9 pic">
+							<img src="img/nen.png" alt="nen" class="nen">
+							<div class="man">
+								<img src="img/avatar2.png" alt="avatar" class="ava">
+								<div class="hand">
+									<img src="img/hand.png" alt="hand" class="arm">
+									<div class="box">
+										<a href="#kynang"><img src="img/skill.png" alt="skill" class="skill"></a>
+										<a href="#portfolio"><img src="img/gallery.png" alt="portfo" class="portfo"></a>
+										<a href="#contact"><img src="img/contact.png" alt="contact" class="lhe"></a>
+										<a href="#about"><img src="img/about.png" alt="about" class="abo"></a>
+									</div>
+								</div>
+							</div>					
+						</div>
+					</section>
+					<section class="col-12 about" id="about">
+					<div class="col-5 portrail">
+						<img src="img/jess.jpg" alt="portrail" height="800px">
+					</div>
+					<div class="col-7 info">
+						<h1>About me</h1>
+						<h2>Thành Huỳnh</h2>
+						<h3>Graphic Designer</h3>
+						<p>Tôi là Thành Huỳnh-Graphic Designer. Là một Arenaite, tôi mong muốn được đem kiến thức và kỹ năng đã được học để đóng góp vào sự thành công và phát triển của các bạn. Đồng thời cũng giúp tôi tích luỹ kinh nghiệm để thêm vững chãi hơn trên con đường thiết kế.</p>
+						<a href="#portfolio"><span>Xem Porfolio</span></a>
+					</div>
+					</section>
+					<section class="col-12 kynang" id="kynang">
+						<h1>Skill</h1>
+						<h2>Kỹ Năng</h2>
+<div class="chart">
+<div class="skill-bars">
+    <div class="bar">
+      <div class="info">
+        <span>HTML</span>
+      </div>
+      <div class="progress-line html">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>CSS</span>
+      </div>
+      <div class="progress-line css">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Illustrator</span>
+      </div>
+      <div class="progress-line illustrator">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Indesign</span>
+      </div>
+      <div class="progress-line id">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Photoshop</span>
+      </div>
+      <div class="progress-line pts">
+        <span></span>
+      </div>
+    </div>
+  </div>
+</div>						
+					</section>
+					<section class="col-12 portfolio" id="portfolio">
+						<h1>Portfolio</h1>
+						<h2>Sản phẩm gần nhất của tôi</h2>
+					<div class="outer">
+						<div class="col-4 padding-grid">
+								<div class="grid">
+									<h3 class="title-hide">Illustration</h3>
+									<img src="img/fox.png" alt="fox">
+								</div>
+						</div>
+						<div class="col-4 padding-grid">
+							<div class="grid">
+							
+									<h3 class="title-hide">Branding</h3>
+									<img src="img/photo1.png" alt="photo">
+							
+							</div>
+						</div>
+						<div class="col-4 padding-grid">
+							<div class="grid">
+								<div class="title title-hide">
+									<h4>Product</h4> <h5>Photo</h5>
+								</div>					
+								<img src="img/food.gif" alt="food">
+							</div>
+						</div>
+					</div>
+					</section>
+					<section class="col-8 contact" id="contact">
+						<h1>Contac me</h1>
+						<h2>Liên hệ tôi (^_^)/</h2>
+						<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name" required>
+    <input type="email" id="input-email" placeholder="Email address" required>
+    <input type="text" id="input-subject" placeholder="Subject" required>
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message" rows="7" cols="36" required></textarea>
+  </div>  
+  <input type="submit" value="Gửi đi" id="input-submit">
+</form>
+					</section>
+				</div>					
+			</div>			
+		</main>
+		<footer>
+			<div class="social">
+				<div class="fb">
+					<a href="#"><img src="img/fb.png"></a>
+				</div>
+				<div class="ins">
+					<a href="#"><img src="img/ins.png"></a>
+				</div>
+				<div class="be">
+					<a href="#"><img src="img/be.png"></a>
+				</div>
+			</div>
+			<p>Copyright©Thành Huỳnh</p>
+		</footer>
+	</div>
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
